@@ -939,6 +939,12 @@ ul.imp-links li a {
     padding-bottom: 10px;
     line-height: 1.5em;
 }
+
+.col-centered{
+	float: none;
+	margin: 0 auto;
+}
+
 /* ===== End footer ===== */
 
 
