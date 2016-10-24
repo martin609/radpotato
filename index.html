@@ -611,7 +611,7 @@
                         <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
                             <h2>Our Awards</h2>
                             <div class="devider"></div>
-                            <p class="subtitle">We let our achievements speak for themselves</p>
+                            <p class="subtitle">We let achievements speak for themselves</p>
                         </div>
                     </div>
                 </div>
@@ -887,41 +887,55 @@
                     <div class="container">
                     	<div class="row">
 
-                            <!--<div class="col-sm-8"></div>-->
-                            <div class="col-md-2 col-centered">
+                            <!--<div class="col-md-2 col-centered">-->
+                                <!--<div class="contact-info">-->
+                                    <!--<h4>&nbsp;&nbsp;&nbsp;Our Address</h4>-->
+                                    <!--<ul class="contact-address">-->
+			                            <!--<li><i class="fa fa-map-marker fa-lg"></i>&nbsp;&nbsp;&nbsp;&nbsp; Partizanska 4 ,-->
+                                            <!--<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1000 Ljubljana ,-->
+                                            <!--<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Slovenia</li>-->
+			                            <!--<li><i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp; +386 41 803 642</li>-->
+			                            <!--<li><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp; info@radpotato.si</li>-->
+			                            <!--&lt;!&ndash;<li><i class="fa fa-skype"></i> Unika-Design</li>&ndash;&gt;-->
+			                        <!--</ul>-->
+                                <!--</div>-->
+                            <!--</div>-->
+
+                            <div class="col-sm-6">
                                 <div class="contact-info">
+                                    <h2></h2>
                                     <h4>&nbsp;&nbsp;&nbsp;Our Address</h4>
                                     <ul class="contact-address">
-			                            <li><i class="fa fa-map-marker fa-lg"></i>&nbsp;&nbsp;&nbsp;&nbsp; Partizanska 4 ,
+                                        <li><i class="fa fa-map-marker fa-lg"></i>&nbsp;&nbsp;&nbsp;&nbsp; Partizanska 4 ,
                                             <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1000 Ljubljana ,
                                             <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Slovenia</li>
-			                            <li><i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp; +386 41 803 642</li>
-			                            <li><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp; info@radpotato.si</li>
-			                            <!--<li><i class="fa fa-skype"></i> Unika-Design</li>-->
-			                        </ul>
+                                        <li><i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp; +386 41 803 642</li>
+                                        <li><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp; info@radpotato.si</li>
+                                    </ul>
                                 </div>
                             </div>
-                        
-                        	<!--<div class="col-sm-6">-->
-                                <!--<div class="contact-form">-->
-                                	<!--<h4>Write to us</h4>-->
-                                    <!--<form role="form">-->
-                                        <!--<div class="form-group">-->
-                                            <!--<input type="text" class="form-control input-lg" placeholder="Your Name" required>-->
-                                        <!--</div>-->
-                                        <!--<div class="form-group">-->
-                                            <!--<input type="email" class="form-control input-lg" placeholder="E-mail" required>-->
-                                        <!--</div>-->
-                                        <!--<div class="form-group">-->
-                                            <!--<input type="text" class="form-control input-lg" placeholder="Subject" required>-->
-                                        <!--</div>-->
-                                        <!--<div class="form-group">-->
-                                            <!--<textarea class="form-control input-lg" rows="5" placeholder="Message" required></textarea>-->
-                                        <!--</div>-->
-                                        <!--<button type="submit" class="btn wow bounceInRight" data-wow-delay="0.8s">Send</button>-->
-                                    <!--</form>-->
-                                <!--</div>	-->
-                            <!--</div>-->
+
+                        	<div class="col-sm-6">
+                                <h4>Find us</h4>
+                                <div id="map" class="contact-info">
+                                    <script>
+                                        function initMap() {
+                                            var uluru = {lat: 46.057263, lng: 14.530719};
+                                            var map = new google.maps.Map(document.getElementById('map'), {
+                                                zoom: 15,
+                                                center: uluru
+                                            });
+                                            var marker = new google.maps.Marker({
+                                                position: uluru,
+                                                map: map
+                                            });
+                                        }
+                                    </script>
+                                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMrIzDRphtt5QJuMz4w6T5YORbW5_bmo4&callback=initMap"
+                                            async defer>
+                                    </script>
+                                </div>
+                            </div>
 
                         </div> <!-- /.row -->
                     </div> <!-- /.container -->
