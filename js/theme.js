@@ -92,7 +92,7 @@ $("#owl-intro-text").owlCarousel({
 
 
 // Partner carousel
-$("#owl-partners").owlCarousel({
+$("#owl-awards").owlCarousel({
     items : 4,
     itemsDesktop : [1199,3],
     itemsDesktopSmall : [980,2],
@@ -117,7 +117,7 @@ $("#owl-testimonial").owlCarousel({
 $.stellar({
     // Set scrolling to be in either one or both directions
     horizontalScrolling: false,
-    verticalScrolling: true,
+    verticalScrolling: true
 });
 
 

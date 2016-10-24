@@ -717,19 +717,19 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 /* ===== End team ===== */
 
 
-/* ===== Begin partners ===== */
-#partners-section {
+/* ===== Begin awards ===== */
+#awards-section {
 	padding: 80px 0;
 }
-.partners {
+.awards {
 	background-color: #252320;
 }
 
-.partners img {
+.awards img {
 	max-width: 100%;
 	padding: 0 15px;
 }
-/* ===== End partners ===== */
+/* ===== End awards ===== */
 
 
 /* ===== Begin panels ===== */
